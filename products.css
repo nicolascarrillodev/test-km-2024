@@ -230,6 +230,7 @@
 .third-section {
     width: auto;
     height: auto;
+    margin: 40px 0px;
 }
 
 .benefits-container {
@@ -318,6 +319,68 @@
 .title-button {
     font-size: 14px;
     font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    position: relative;
+    align-items: center;
+}
+
+.img-fourth {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-container-fourth {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.right-container-fourth {
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay-fourth {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    pointer-events: none; 
+    z-index: 100;
+}
+
+.titles-fourth {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    gap: 16px;
+    z-index: 1000;
+}
+
+.title-fourth {
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.subtitle-fourth {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 300;
     letter-spacing: 0.04em;
     color: #fff;
 }
