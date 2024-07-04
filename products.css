@@ -13,6 +13,10 @@
     color: inherit; 
   }
 
+  ul {
+    list-style-type: none;
+  }
+
 @font-face {
     font-family: 'Gilroy';
     src: url('fonts/gilroy/Gilroy-Regular.ttf');
@@ -214,4 +218,101 @@
     font-size: 12px;
     font-weight: 400;
     width: fit-content;
+}
+
+/* Third Section*/
+
+.third-section {
+    width: auto;
+    height: auto;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 100vh;
+}
+
+.img-benefit-1 {
+    width: 62.50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.benefit-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 64px 50px;
+    align-items: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.benefits-total {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.benefit-1-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.benefit-first-row {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+
+.benefit-middle-row {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+}
+
+.benefit-info-last-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 12px;
+}
+
+.benefit-last-row {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.explore-courses {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    background-color: #062B80;
+    width: 100%;
+    height: fit-content;
+    padding: 24px 16px;
+    justify-content: center;
+}
+
+.title-button {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
